@@ -1,3 +1,3 @@
 ﻿using Metodos;
 using System;
-Exer5.Main(args);
+Exer20.Main(args);

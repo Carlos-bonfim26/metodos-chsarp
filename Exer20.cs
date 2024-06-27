@@ -1,19 +1,23 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Metodos
 {
-    internal class Exer1
+    internal class Exer20
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Digite um número inteiro:");
-            int numero = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("digite um número inteiro:");
+            int n1 = Convert.ToInt32(Console.ReadLine());
 
-            string nPrimo = NumeroPrimo(numero) == true ? $"{numero} é primo" : $"{numero} não é primo";
-            Console.WriteLine(nPrimo);
+            string primo = isPrimo(n1) ? $"{n1} é primo" : $"{n1} não é primo";
+
+            Console.WriteLine(primo);
         }
-
-        static bool NumeroPrimo(int num)
+        public static bool isPrimo(int num)
         {
             if (num <= 1)
             {
@@ -27,6 +31,7 @@ namespace Metodos
             {
                 return false;
             }
+
             for (int i = 3; i <= Math.Sqrt(num); i += 2)
             {
                 if (num % i == 0)
@@ -34,7 +39,10 @@ namespace Metodos
                     return false;
                 }
             }
+
             return true;
         }
     }
 }
+    
+

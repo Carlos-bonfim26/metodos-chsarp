@@ -12,3 +12,4 @@ C:\Users\Aluno\source\repos\Metodos\Metodos\obj\Debug\net8.0\refint\Metodos.dll
 C:\Users\Aluno\source\repos\Metodos\Metodos\obj\Debug\net8.0\Metodos.pdb
 C:\Users\Aluno\source\repos\Metodos\Metodos\obj\Debug\net8.0\Metodos.genruntimeconfig.cache
 C:\Users\Aluno\source\repos\Metodos\Metodos\obj\Debug\net8.0\ref\Metodos.dll
+C:\Users\Aluno\source\repos\Metodos\Metodos\obj\Debug\net8.0\Metodos.sourcelink.json

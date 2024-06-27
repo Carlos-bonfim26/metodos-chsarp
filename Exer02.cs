@@ -2,7 +2,7 @@
 
 namespace Metodos
 {
-    internal class Exer2
+    internal class Exer02
     {
         public static void Main(string[] args)
         {

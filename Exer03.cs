@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Metodos
 {
-    internal class Exer3
+    internal class Exer03
     {
         public static void Main(string[] args)
         {
